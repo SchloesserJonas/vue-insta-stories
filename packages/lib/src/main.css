@@ -1,0 +1,93 @@
+.vue-insta-stories {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  background: #111;
+}
+
+.vue-insta-stories-full {
+  position: absolute;
+  height: 100vh;
+  height: -webkit-fill-available;
+  width: 100vw;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.vue-insta-stories-page {
+ position: relative;
+ height: 730px default;
+ width: 420px default;
+}
+
+.vue-insta-stories .header {
+  position: absolute;
+  z-index: 10;
+  top: 22px;
+  left: 16px;
+}
+
+.vue-insta-stories .timeline {
+  position: absolute;
+  display: flex;
+  flex-grow: 0;
+  width: 100%;
+  background: -webkit-gradient(
+    linear,
+    top,
+    bottom,
+    from(rgba(0, 0, 0, 0.2)),
+    to(rgba(0, 0, 0, 0))
+  );
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+  padding-bottom: 8px; /* To add more space for gradient */
+  z-index: 10;
+}
+
+.vue-insta-stories .timeline > .slice {
+  background: rgba(255, 255, 255, 0.5);
+  height: 2px;
+  border-radius: 2px;
+  margin: 6px 3px;
+  width: 100%;
+}
+
+.vue-insta-stories .timeline > .slice > .progress {
+  background: #fff;
+  height: 2px;
+  border-radius: 2px;
+  width: 0%;
+}
+
+.see-more-wrapper {
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.see-more-wrapper .see-more {
+  position: absolute;
+  height: 10vh;
+  flex-direction: column;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2));
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  bottom: 0;
+  z-index: 10;
+}
+
+.see-more-wrapper .see-more-text, .see-more-wrapper .see-more-icon {
+  color: white;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: opacity 300ms ease-in-out;
+}
+.see-more-wrapper .see-more-text {
+  letter-spacing: 0.1em;
+  margin-bottom: 2.2vh;
+}
