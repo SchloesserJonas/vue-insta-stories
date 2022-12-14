@@ -1,4 +1,4 @@
-<h1>vue-insta-stories</h1>
+<h1>vue-insta-stories-webpage-integration</h1>
 
 <p>
   Vue component for Instagram stories<br/>
@@ -22,7 +22,7 @@ Work in progress documentation can be found [here](https://github.com/dnldsht/vu
 - Swipe up to see more
 - Hold to pause current story
 - Tap to navigate between stories
-- Straight forward usage for images & videos
+- Straight forward usage for images, videos and webpages
 - Header slot
 - Custom templates
   
