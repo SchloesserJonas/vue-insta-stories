@@ -1,8 +1,8 @@
-<h1 align="center">vue-insta-stories</h1>
+<h1>vue-insta-stories</h1>
 
-<p align="center">
+<p>
   Vue component for Instagram stories<br/>
-<a href="https://dnldsht.github.io/vue-insta-stories" target="__blank"><b>Live demo<b></a>
+Forked from [dnldsht](https://github.com/dnldsht/vue-insta-stories)
 </p>
 
 <br/>
@@ -10,7 +10,7 @@
 
 ## Install
 ```bash
-yarn add vue-insta-stories
+npm i vue-insta-stories-webpage-integration
 ```
 
 ## Usage
@@ -26,9 +26,7 @@ Work in progress documentation can be found [here](https://github.com/dnldsht/vu
 - Header slot
 - Custom templates
   
-## Contributing
-We are open to pull requests!
-  
+
 ### How to test the lib  
 ```bash
 yarn lib:watch # watch for changes on the lib package
@@ -40,7 +38,7 @@ yarn dev:2 # starts vue2 demo
 
 
 ## Credits
-This project was inspired by @kayue [work](https://github.com/kayue/vue-story-example)
+This project was inspired by @dnldsht [work](https://github.com/dnldsht/vue-insta-stories)
 
 ## License
 MIT - Copyright (c) 2021 Uneven Software
