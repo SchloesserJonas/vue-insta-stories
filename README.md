@@ -2,7 +2,7 @@
 
 <p>
   Vue component for Instagram stories<br/>
-Forked from [dnldsht](https://github.com/dnldsht/vue-insta-stories)
+Forked from <a href="https://github.com/dnldsht/vue-insta-stories" target="_blank">dnldsht</a>
 </p>
 
 <br/>
